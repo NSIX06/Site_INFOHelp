@@ -1,0 +1,32 @@
+.navbar{
+
+    border: 1px solid rgba(108, 122, 245, 0.60);
+    background-color: #6C7AF5 !important;
+}
+.navbar-expand-lg{
+    color: #fff;
+} 
+
+#carde{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 4% 2%;
+    font-size: 15px;
+
+
+}
+
+.card{
+
+    width: 20%!important;
+    height: 10%!important;
+
+    
+}
+
+.btn btn-primary{
+
+    font-size: 15px;
+}
