@@ -1,3 +1,9 @@
+
+body *{
+    font-family: 'Inter', sans-serif;
+
+}
+
 .navbar{
 
     border: 1px solid rgba(108, 122, 245, 0.60);
@@ -9,6 +15,9 @@
     color: #fff!important;
 } 
 
+
+
+
 #carde{
 
     display: flex;
@@ -18,6 +27,10 @@
     font-size: 15px;
 
 
+}
+
+.flex{
+    color: #fff!important;
 }
 
 .card{
@@ -33,36 +46,39 @@
     font-size: 15px;
 }
 
-.nav-link{
-    color: #fff!important;
+.nav-link
+{
+   color: #fff!important;
 }
+
+
 
 .navbar-brand1{
     color: #FFF;
-font-family: Julius Sans One;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration: none;
+    font-family: 'Inter', sans-serif!important;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    text-decoration: none;
+
 }
 
 .navbar-brand2{
     color: #FAFF07;
-font-family: Julius Sans One;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration: none;
+    font-family: 'Inter', sans-serif!important;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    text-decoration: none;
 }
 
 footer{
-    width: 100%;
-    height: 100%;
-    display: flex;
+   width: 100%;
+    flex-shrink: 0;
     background: #EDEDED;
-    color: #000!important;
+    padding: 2% 1%;
 }
 
 
@@ -75,4 +91,27 @@ footer{
     text-decoration: none;
     color: #000!important;
     gap: 10px;
+}
+
+.form-control{
+    width: 450px;
+    background-color: #6C7AF5;
+    color: #FFF;
+}
+
+.text-muted{
+    color: #000!important;
+}
+
+
+.top1{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+header{
+
+    color: #FFF;
+    justify-content: space-around;
 }
