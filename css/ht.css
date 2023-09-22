@@ -20,10 +20,10 @@ body * {
 }
 
 h1 {
-    padding: 2% 2%;
+  
     text-align: center;
     color: #000000;
-    top: 60px;
+    top: 100px;
     font-size: 25px;
     font-weight: 750;
 }
@@ -36,6 +36,11 @@ h1 {
 }
 
 .card-login{
+    position: relative;
+}
+
+.card-login{
+    top: 110px;
     margin: 50px 50px;
     width: 600px;
     height: 350px;
@@ -43,7 +48,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 35px;
+    padding: 40px 35px;
     background: #fff;
     border-radius: 10px;
     border: 1px solid #cfcdcd;
@@ -109,7 +114,7 @@ h1 {
     background: #06F;
     cursor: pointer;
     right: -236px;
-    top: -120px;
+    top: -9px;
    
 }
 
@@ -206,9 +211,16 @@ text-decoration: none;
     flex-direction: row;
     align-items: baseline;
 }
+
+
+footer{
+    position: relative;
+}
+
 footer{
     width: 100%;
      flex-shrink: 0;
      background: #EDEDED;
      padding: 2% 1%;
+     top: 400px;
  }

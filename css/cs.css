@@ -17,16 +17,29 @@ body *{
 
 
 
+input ::placeholder{
+
+    color: #fff!important;
+}
 
 #carde{
 
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding: 4% 4%;
-    font-size: 15px;
+    padding: 3% 2%;
+    
 
 
+}
+
+
+.nav-item{
+
+    text-align: center;
+ 
+    margin-right: 10px!important;
+    margin-left: 100px;
 }
 
 .flex{
@@ -35,8 +48,13 @@ body *{
 
 .card{
 
+    
     width: 20%!important;
     height: 10%!important;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 15px;
 
     
 }
@@ -49,6 +67,7 @@ body *{
 .nav-link
 {
    color: #fff!important;
+
 }
 
 
@@ -93,10 +112,16 @@ footer{
     gap: 10px;
 }
 
-.form-control{
+.form-control::placeholder{
+    color: #FFF!important;
+}
+
+.form-control {
     width: 450px;
-    background-color: #6C7AF5;
+    background-color: #fff;
+    background:#6C7AF5!important;
     color: #FFF;
+
 }
 
 .text-muted{
